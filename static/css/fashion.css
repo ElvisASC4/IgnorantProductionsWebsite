@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.rightNav {
+    float: right;
+    margin-right: 75px;
+}
+.ulNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c9142f;
+  border-bottom: 0.8px solid #a5142f;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
+.logo {
+  float: left;
+}
+
+.liNav .aNav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.liNav .aNav:hover {
+  background-color: #111;
+}
+
+
+
+
+.carousel{
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+.carousel .carousel-item{
+    width: 400px;
+    height: 600px;
+    margin-top: 125px;
+}
+
+/*img{
+    height: 600px;
+}*/
